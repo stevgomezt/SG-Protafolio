@@ -1,0 +1,65 @@
+.BarraCabecera{
+    display: flex;
+    /* outline: solid black 1px; */
+    background-color:white;
+    height: 60px;
+    letter-spacing: 1px;
+    /* padding: 5px; */
+    /* margin: 5px; */
+}
+    .BarraCabecera div{
+        /* outline: solid black 1px; */
+        padding: 5px;
+        padding: 20px;
+        /* margin: 5px; */
+        background-color:white;
+        transition: background-color .5s;
+    }
+        .BarraCabecera div:hover {
+            background-color:#04aa6d;
+        }
+    .BarraCabecera a{
+        /* outline: solid black 1px; */
+        font-family: 'Source Sans Pro', sans-serif;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+    }
+        .BarraCabecera a:hover {
+            color: white;
+        }
+
+        
+.BarraMenu{
+    display: flex;
+    outline: solid black 1px;
+    background-color:#282a35;
+    padding: 2px;
+    justify-content: space-between;
+    line-height: 25.5px;
+    letter-spacing: 1px;
+}
+    .BarraMenu div{
+        display: block;
+        /* outline: solid white 1px; */
+        padding: 5px;
+        /* margin: 5px; */
+        background-color:#282a35;
+        transition: background-color .5s;
+        width: 100%;
+        text-align: center;
+    }
+        .BarraMenu div:hover {
+                background-color: black;
+            }
+    .BarraMenu a{
+        /* outline: solid white 1px; */
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+
+    
